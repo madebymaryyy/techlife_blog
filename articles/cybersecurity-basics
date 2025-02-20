@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Understanding Cybersecurity Basics">
+    <title>Understanding Cybersecurity Basics - TechLife Blog</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        .blog-post {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .blog-post header {
+            margin-bottom: 2rem;
+        }
+
+        .blog-post h1 {
+            font-size: 2.5rem;
+            color: var(--text-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .blog-post .content {
+            line-height: 1.8;
+            color: var(--text-color);
+        }
+
+        .blog-post .content h2 {
+            font-size: 1.5rem;
+            margin: 2rem 0 1rem;
+        }
+
+        .blog-post .content ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .blog-post .content li {
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-content">
+                <a href="../index.html" class="logo">TechLife Blog</a>
+                <ul class="nav-links">
+                    <li><a href="../tech.html">Tech</a></li>
+                    <li><a href="../sports.html">Sports</a></li>
+                    <li><a href="../lifestyle.html">Lifestyle</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <a href="javascript:history.back()" class="back-button">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M7.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L5.414 9H15a1 1 0 110 2H5.414l2.293 2.293a1 1 0 010 1.414z" clip-rule="evenodd" />
+            </svg>
+            Back
+        </a>
+
+        <article class="blog-post">
+            <header>
+                <span class="category">Tech</span>
+                <h1>Understanding Cybersecurity Basics</h1>
+                <time>2024-01-15</time>
+            </header>
+            <div class="content">
+                <p>Cybersecurity is more important than ever in today's digital world. Here are some key concepts everyone should know:</p>
+
+                <h2>Password Security</h2>
+                <ul>
+                    <li>Use strong, unique passwords for each account</li>
+                    <li>Enable two-factor authentication when possible</li>
+                    <li>Consider using a password manager</li>
+                </ul>
+
+                <h2>Safe Browsing Habits</h2>
+                <ul>
+                    <li>Always check for HTTPS connections</li>
+                    <li>Be cautious with downloading files</li>
+                    <li>Keep your software and systems updated</li>
+                </ul>
+
+                <h2>Common Threats</h2>
+                <ul>
+                    <li>Phishing attempts</li>
+                    <li>Malware and viruses</li>
+                    <li>Social engineering attacks</li>
+                </ul>
+
+                <p>Remember, good cybersecurity practices are essential for protecting your digital life. Stay vigilant and keep learning about new security threats and protection methods.</p>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 TechLife Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
