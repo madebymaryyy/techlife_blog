@@ -7,11 +7,10 @@ document.addEventListener('DOMContentLoaded', function() {
         const emailInput = this.querySelector('input[type="email"]');
         const email = emailInput.value;
         
-        // Here you would typically send this to a backend server
-        // For now, we'll just show an alert
+        // Pouze ukazuje alert, normálně by zde byl backend kód
         alert(`Thank you for subscribing with: ${email}`);
         
-        // Clear the form
+        // Vyčištění formy
         emailInput.value = '';
     });
 });
